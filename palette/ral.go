@@ -1,6 +1,6 @@
 package palette
 
-import "github.com/muesli/gamut"
+import "github.com/Lexus123/gamut"
 
 // source: https://gist.github.com/lunohodov/1995178
 func init() {

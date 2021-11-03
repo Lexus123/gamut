@@ -1,6 +1,6 @@
 package palette
 
-import "github.com/muesli/gamut"
+import "github.com/Lexus123/gamut"
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 func init() {

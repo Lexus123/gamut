@@ -3,7 +3,7 @@ package theme
 import (
 	"testing"
 
-	"github.com/muesli/gamut/palette"
+	"github.com/Lexus123/gamut/palette"
 )
 
 func TestThemeColors(t *testing.T) {

@@ -1,6 +1,6 @@
 package palette
 
-import "github.com/muesli/gamut"
+import "github.com/Lexus123/gamut"
 
 func init() {
 	Monokai.AddColors(

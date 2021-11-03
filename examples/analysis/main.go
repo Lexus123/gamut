@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/muesli/gamut"
-	"github.com/muesli/gamut/examples/htmlgen"
+	"github.com/Lexus123/gamut"
+	"github.com/Lexus123/gamut/examples/htmlgen"
 
 	colorful "github.com/lucasb-eyer/go-colorful"
 )

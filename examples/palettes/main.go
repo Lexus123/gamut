@@ -6,8 +6,8 @@ import (
 	"image/color"
 	"io/ioutil"
 
+	"github.com/Lexus123/gamut"
 	colorful "github.com/lucasb-eyer/go-colorful"
-	"github.com/muesli/gamut"
 )
 
 var (

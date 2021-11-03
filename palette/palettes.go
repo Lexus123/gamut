@@ -1,7 +1,7 @@
 package palette
 
 import (
-	"github.com/muesli/gamut"
+	"github.com/Lexus123/gamut"
 )
 
 var (

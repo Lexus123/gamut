@@ -3,8 +3,8 @@ package theme
 import (
 	"image/color"
 
-	"github.com/muesli/gamut"
-	"github.com/muesli/gamut/palette"
+	"github.com/Lexus123/gamut"
+	"github.com/Lexus123/gamut/palette"
 )
 
 // A Theme is a collection of colors mapped to a role (or function)

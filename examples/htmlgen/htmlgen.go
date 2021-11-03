@@ -5,7 +5,7 @@ import (
 	"image/color"
 	"io"
 
-	"github.com/muesli/gamut"
+	"github.com/Lexus123/gamut"
 
 	colorful "github.com/lucasb-eyer/go-colorful"
 )

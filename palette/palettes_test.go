@@ -4,8 +4,8 @@ import (
 	"image/color"
 	"testing"
 
+	"github.com/Lexus123/gamut"
 	colorful "github.com/lucasb-eyer/go-colorful"
-	"github.com/muesli/gamut"
 )
 
 func TestDistance(t *testing.T) {

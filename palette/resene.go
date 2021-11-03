@@ -1,8 +1,8 @@
 package palette
 
 import (
+	"github.com/Lexus123/gamut"
 	colorful "github.com/lucasb-eyer/go-colorful"
-	"github.com/muesli/gamut"
 )
 
 func init() {

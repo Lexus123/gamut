@@ -1,17 +1,17 @@
 # gamut
 
-[![Latest Release](https://img.shields.io/github/release/muesli/gamut.svg)](https://github.com/muesli/gamut/releases)
-[![Build Status](https://github.com/muesli/gamut/workflows/build/badge.svg)](https://github.com/muesli/gamut/actions)
+[![Latest Release](https://img.shields.io/github/release/muesli/gamut.svg)](https://github.com/Lexus123/gamut/releases)
+[![Build Status](https://github.com/Lexus123/gamut/workflows/build/badge.svg)](https://github.com/Lexus123/gamut/actions)
 [![Coverage Status](https://coveralls.io/repos/github/muesli/gamut/badge.svg?branch=master)](https://coveralls.io/github/muesli/gamut?branch=master)
 [![Go ReportCard](https://goreportcard.com/badge/muesli/gamut)](https://goreportcard.com/report/muesli/gamut)
-[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/muesli/gamut)
+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/Lexus123/gamut)
 
 Go package to generate and manage color palettes & schemes
 
 ```go
-import "github.com/muesli/gamut"
-import "github.com/muesli/gamut/palette"
-import "github.com/muesli/gamut/theme"
+import "github.com/Lexus123/gamut"
+import "github.com/Lexus123/gamut/palette"
+import "github.com/Lexus123/gamut/theme"
 ```
 
 ## Colors
@@ -121,7 +121,7 @@ saturation/lightness:
 colors = gamut.Monochromatic(color, 8)
 ```
 
-![Monochromatic Palette](https://github.com/muesli/gamut/blob/master/docs/palette_monochromatic.png)
+![Monochromatic Palette](https://github.com/Lexus123/gamut/blob/master/docs/palette_monochromatic.png)
 
 `Shades` returns colors blended from the given color to black:
 
@@ -129,7 +129,7 @@ colors = gamut.Monochromatic(color, 8)
 colors = gamut.Shades(color, 8)
 ```
 
-![Shades Palette](https://github.com/muesli/gamut/blob/master/docs/palette_shades.png)
+![Shades Palette](https://github.com/Lexus123/gamut/blob/master/docs/palette_shades.png)
 
 `Tints` returns colors blended from the given color to white:
 
@@ -137,7 +137,7 @@ colors = gamut.Shades(color, 8)
 colors = gamut.Tints(color, 8)
 ```
 
-![Tints Palette](https://github.com/muesli/gamut/blob/master/docs/palette_tints.png)
+![Tints Palette](https://github.com/Lexus123/gamut/blob/master/docs/palette_tints.png)
 
 `Tones` returns colors blended from the given color to gray:
 
@@ -145,7 +145,7 @@ colors = gamut.Tints(color, 8)
 colors = gamut.Tones(color, 8)
 ```
 
-![Tones Palette](https://github.com/muesli/gamut/blob/master/docs/palette_tones.png)
+![Tones Palette](https://github.com/Lexus123/gamut/blob/master/docs/palette_tones.png)
 
 ### Blending Colors
 
@@ -155,7 +155,7 @@ colors = gamut.Tones(color, 8)
 colors = gamut.Blends(color1, color2, 8)
 ```
 
-![Blends Palette](https://github.com/muesli/gamut/blob/master/docs/palette_blends.png)
+![Blends Palette](https://github.com/Lexus123/gamut/blob/master/docs/palette_blends.png)
 
 ## Palettes
 
@@ -251,7 +251,7 @@ generator) color palettes:
 colors, err = gamut.Generate(8, gamut.PastelGenerator{})
 ```
 
-![Pastel Palette](https://github.com/muesli/gamut/blob/master/docs/palette_pastel.png)
+![Pastel Palette](https://github.com/Lexus123/gamut/blob/master/docs/palette_pastel.png)
 
 The `SimilarHueGenerator` produces colors with a hue similar to a given color:
 
@@ -259,7 +259,7 @@ The `SimilarHueGenerator` produces colors with a hue similar to a given color:
 colors, err = gamut.Generate(8, gamut.SimilarHueGenerator{Color: gamut.Hex("#2F1B82")})
 ```
 
-![Similar Hue Palette](https://github.com/muesli/gamut/blob/master/docs/palette_similarhue.png)
+![Similar Hue Palette](https://github.com/Lexus123/gamut/blob/master/docs/palette_similarhue.png)
 
 Using the `ColorGenerator` interface, you can also write your own color generators:
 
